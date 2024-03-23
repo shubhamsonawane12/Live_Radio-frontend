@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd4a9b77.css",
+    "main.js": "/static/js/main.ee29cf78.js",
+    "static/media/hhhjjjjkkk-removebg-preview1.png": "/static/media/hhhjjjjkkk-removebg-preview1.6480ee821ae2e04c1b9a.png",
+    "static/media/sidemenu_gujrat.png": "/static/media/sidemenu_gujrat.cf8ea9ea49ffb0611e0d.png",
+    "static/media/sidemenu_rajastan.webp": "/static/media/sidemenu_rajastan.69f76e7f4b40f9a9121f.webp",
+    "static/media/sidemenu_New delhi.png": "/static/media/sidemenu_New delhi.13c35c73e1692a178dee.png",
+    "static/media/sidemenu_andhrapradesh.png": "/static/media/sidemenu_andhrapradesh.b743360a7be5be4f5ec3.png",
+    "static/media/user.png": "/static/media/user.cf85306fb2118c7339eb.png",
+    "static/media/Profile.png": "/static/media/Profile.0d14c6999b4a5c8e86a7.png",
+    "static/media/sidemenu_maharashtra.avif": "/static/media/sidemenu_maharashtra.ed627437369e1e481342.avif",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.cd4a9b77.css.map": "/static/css/main.cd4a9b77.css.map",
+    "main.ee29cf78.js.map": "/static/js/main.ee29cf78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd4a9b77.css",
+    "static/js/main.ee29cf78.js"
+  ]
+}
