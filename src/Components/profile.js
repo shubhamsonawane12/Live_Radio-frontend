@@ -20,7 +20,7 @@ function Profile(props) {
   useEffect(() => {
     const fetchFavoriteChannels = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/api/auth/user/${userData.userId}/getfavchannel`);
+        const response = await axios.get(`https://live-radio-backend.onrender.com/api/auth/user/${userData.userId}/getfavchannel`);
         setFavoriteChannels(response.data.favoriteChannels);
         // Show carousel if more than 7 channels
         if (response.data.favoriteChannels.length > 9) {

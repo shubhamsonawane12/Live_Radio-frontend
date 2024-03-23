@@ -36,7 +36,7 @@ function Main() {
   const fetchUserData = async () => {
     try {
       // Make an HTTP request to your backend API to get user details
-      const response = await fetch('http://localhost:3000/api/auth/profile', {
+      const response = await fetch('https://live-radio-backend.onrender.com/api/auth/profile', {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`, // Include the user token

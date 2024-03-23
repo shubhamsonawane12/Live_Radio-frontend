@@ -49,7 +49,7 @@ console.log("imagePath:", imagePath);
       ...prevLikedStations,
       [stationName]: !prevLikedStations[stationName]
     }));
-     axios.post('http://localhost:3000/api/auth/favchannels', {
+     axios.post('https://live-radio-backend.onrender.com/api/auth/favchannels', {
       userId: userId , 
       imagePath:imagePath,
       stationName: stationName ,
