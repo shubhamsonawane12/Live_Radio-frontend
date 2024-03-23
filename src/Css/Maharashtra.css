@@ -1,0 +1,263 @@
+.Maharashtra {
+    width:100%;
+    /* height: 783px; */
+    padding-top: 2%;
+    display: flex;
+    
+    /* margin-right: 50px; */
+  /* border:1px solid rgb(0, 0, 0); */
+    /* background-color: #EFC7B7; */
+    flex-direction: column;
+    /* overflow: hidden;  */
+    /* overflow: scroll; */
+    /* box-shadow:1px 6px 5px black; */
+    border-radius:1px 11px 10px;
+}
+::-webkit-scrollbar {display:none;}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.Cards{
+       cursor: pointer;
+      /* border:2px solid rgb(255, 0, 0); */
+width:175px;
+height:200px;
+display: flex;
+/* margin-right: 40px; */
+/* margin-left: 10px; */
+flex-direction: column;
+align-items: center;
+
+}
+.Cards p{
+    margin-left: 8px;
+        font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    /* word-spacing: 2px; */
+    /* color:#efeaea */
+    /* margin-bottom: 20px; */
+letter-spacing: 0.4px;
+}
+/* .radioNames{
+    border:1px solid black;
+    height:30%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+} */
+
+.Cards img {
+    height: 136px;
+    width: 136px;
+    /* margin-bottom: 16px; */
+    border-radius: 8px 8px 8px;
+    /* box-shadow: 0px 0px 10px rgb(150, 148, 148); */
+}
+.Cards img:hover   {
+   filter: brightness(67%); /* Adjust the percentage to control the darkness */
+   transition: filter 0.3s ease; /* Add a smooth transition effect */
+   /* box-shadow: 0px 0px 15px rgb(67, 64, 64); */
+}
+.favbutton_container{
+    /* border:2px solid black; */
+    width:100%;
+    height:5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.LikeButton svg {
+  font-size: 23px !important;
+  visibility: hidden;
+  /* color:red; */
+}
+.Cards:hover  .LikeButton svg{
+    visibility: visible;
+}
+.LikeButton svg path{
+    color:red !important;
+}
+
+
+.Cards-Container {
+    width: 100%;
+    /* border:2px solid rgb(46, 10, 207); */
+    height:220px;
+   overflow: hidden;
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 20px;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-bottom: 20px;
+}
+.name_image{
+    display: flex;
+    /* width:100%; */
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+}
+.name_image , h4{
+    margin-left:20px;
+}
+card  h4{
+    display: none;
+}
+.station_img{
+       /* border:2px solid rgb(219, 23, 23); */
+      /* margin-left:-30px; */
+      width:100%;
+      /* width:50rem; */
+      height:95px;
+      display: flex;
+      /* justify-content: ; */
+      align-items: center;
+      flex-direction: row;
+      /* justify-content: flex-end; */
+      margin-right: 25rem;
+      
+}
+
+ .CardPair{
+    display:flex;
+    flex-direction:row;
+     /* border:2px solid rgb(17, 207, 10); */
+     width:27%;
+     justify-content:space-between;
+}
+
+/* For Webkit Browsers */
+
+
+@media only screen and (max-width: 767px) {
+    .name_image{
+    display: flex;
+    width:auto;
+    /* flex-direction: column; */
+    /* border:2px solid black; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    align-items: center;;
+    
+    /* border:2px solid black; */
+}
+.name_image  h4{
+    margin-left:83px !important;
+    margin-bottom: 60px !important;
+align-items: normal !important;
+
+    }
+.station_img{
+       /* border:2px solid rgb(219, 23, 23); */
+      margin-left:0px;
+       margin-right: 0rem;
+       margin-top: 10px;
+}
+card h4{
+    display: unset;
+    font-size: 20px;
+
+}
+ul li a{
+    color:white !important;
+}
+ul li::after{
+    color:rgb(0, 0, 0) !important;
+}
+.Maharashtra {
+    width:100%;
+    margin-right: 35px;
+  
+    display: flex;
+    padding-top: 25%;
+  
+  /* border:1px solid black; */
+    
+    flex-direction: column;
+    /* overflow: hidden;  */
+    /* overflow: scroll; */
+    /* box-shadow:1px 6px 5px black; */
+    border-radius:1px 11px 10px;
+}
+::-webkit-scrollbar {display:none;}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.CardPair{
+    display:flex;
+    flex-direction:row;
+     /* border:2px solid rgb(17, 207, 10); */
+     /* width:50%; */
+       width:100%;
+     margin-bottom: 2rem;
+}
+
+.Cards{
+      /* border:2px solid rgb(255, 0, 0); */
+width:175px;
+height:180px;
+display: flex;
+justify-content: center;
+align-items:center ;
+
+/* margin-right: 40px; */
+/* margin-left: 10px; */
+flex-direction: column;
+align-items: center;
+
+}
+.Cards p{
+    margin-left:17px;
+    font-size: 14px;
+}
+
+.Cards img {
+    height: 110px;
+    width: 115px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px;
+    box-shadow: none !important;
+   
+}
+.Cards img:hover{
+   box-shadow: 0px 0px 15px rgb(67, 64, 64);
+}
+
+.Cards-Container {
+    width: 100%;
+    /* border:2px solid rgb(46, 10, 207); */
+    height:auto;
+    /* overflow-x: scroll; */
+    display: flex;
+    /* padding-left: 200px; */
+    flex-direction: column;
+   margin-bottom: 20px;
+   align-items: center;
+   justify-content: space-around;
+   margin-bottom: 20px;
+
+}
+
+/* ::-webkit-scrollbar {display: contents;} */
+.Container{
+    flex-direction: column;
+    /* padding-top: 200px; */
+}
+
+.Cards:hover  .LikeButton svg{
+    visibility: visible;
+}
+}
