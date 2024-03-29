@@ -10,7 +10,7 @@ import AudioPlayer from 'react-h5-audio-player';
 function Profile(props) {
   const [favoriteChannels, setFavoriteChannels] = useState([]);
   const userData = props.userData;
-  const [showCarousel, setShowCarousel] = useState(null);
+  // const [showCarousel, setShowCarousel] = useState(null);
 
 
 
@@ -22,9 +22,9 @@ function Profile(props) {
         const response = await axios.get(`https://live-radio-backend.onrender.com/api/auth/user/${userData.userId}/getfavchannel`);
         setFavoriteChannels(response.data.favoriteChannels);
         // Show carousel if more than 7 channels
-        if (response.data.favoriteChannels.length > 9) {
-          setShowCarousel(1);
-        }
+        // if (response.data.favoriteChannels.length > 9) {
+        //   setShowCarousel(1);
+        // }
       } catch (error) {
         console.error('Error fetching user favorite channels:', error);
       }
