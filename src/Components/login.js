@@ -49,7 +49,7 @@ function Login() {
 
         // Use the navigate function to redirect to /profile
         // navigate('/profile');
-      // window.location.href = '';
+      window.location.href = 'live-radio-frontend.onrender.com';
          
       } else {
         // Handle login errors, display a message to the user, etc.
