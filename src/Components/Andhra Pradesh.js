@@ -6,7 +6,6 @@ import 'react-h5-audio-player/lib/styles.css'; // Import the styles for the audi
 import "../Css/Radioplayer.css";
 import axios from 'axios';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
-import { Router, Route } from 'wouter';
 
 
 
@@ -68,17 +67,13 @@ console.log("imagePath:", imagePath);
 
   
 const [CurrentimageUrl, setCurrentimageUrl] = useState(null); 
-const [Currentfrequency, setCurrentfrequency] = useState(null); 
 const [CurrentstationName, setCurrentstationName] = useState(null); 
 const [CurrentstationLink, setCurrentstationLink] = useState(null);    
-const [Currentinformation, setCurrentinformation] = useState(null);
  const  playAudio = (imageUrl,frequency,stationName,stationLink,information) => {
     
     setCurrentimageUrl(imageUrl);
-    setCurrentfrequency(frequency); 
     setCurrentstationName(stationName);
     setCurrentstationLink(stationLink);
-    setCurrentinformation(information);
 
 
   };

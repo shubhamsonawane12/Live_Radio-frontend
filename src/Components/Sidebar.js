@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import "../Css/Sidebar.css";
 import { Link } from 'wouter';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close'; // Import CloseIcon
 import avatar from "../Images/Profile.png";
@@ -21,9 +20,9 @@ function Sidebar(props) {
     setSidebarOpen(!isSidebarOpen);
   };
    
-  const closeSidebar = () => { // Function to close sidebar
-    setSidebarOpen(false);
-  };
+  // const closeSidebar = () => { // Function to close sidebar
+  //   setSidebarOpen(false);
+  // };
 
   useEffect(() => {
     const handleEscKey = (e) => {

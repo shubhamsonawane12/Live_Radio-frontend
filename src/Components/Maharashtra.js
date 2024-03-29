@@ -1,17 +1,16 @@
 // import React from 'react';
 import "../Css/Maharashtra.css";
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState} from 'react';
 // import UserContext from './usercontext';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css'; // Import the styles for the audio player
 import "../Css/Radioplayer.css";
 import axios from 'axios';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
-import Sidemenu  from "./sidemenu";
-import { Router, Route } from 'wouter';
+
 
 // import { useUserData } from './profile';
-import ReactAudioPlayer from 'react-audio-player';
+
 
 import {radioData1} from './data'; 
 import {radioData2}  from './data';
@@ -71,17 +70,13 @@ console.log("imagePath:", imagePath);
 
   
 const [CurrentimageUrl, setCurrentimageUrl] = useState(null); 
-const [Currentfrequency, setCurrentfrequency] = useState(null); 
 const [CurrentstationName, setCurrentstationName] = useState(null); 
 const [CurrentstationLink, setCurrentstationLink] = useState(null);    
-const [Currentinformation, setCurrentinformation] = useState(null);
  const  playAudio = (imageUrl,frequency,stationName,stationLink,information) => {
     
     setCurrentimageUrl(imageUrl);
-    setCurrentfrequency(frequency); 
     setCurrentstationName(stationName);
     setCurrentstationLink(stationLink);
-    setCurrentinformation(information);
 
 
   };

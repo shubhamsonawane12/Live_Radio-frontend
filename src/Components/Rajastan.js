@@ -8,13 +8,11 @@ import { FaHeart, FaRegHeart } from 'react-icons/fa';
 import "../Css/Radioplayer.css";
 
 
-import ReactAudioPlayer from 'react-audio-player';
 
 import {radioData14}  from './data';
 import {radioData15}  from './data';
 import {radioData10}  from './data';
 import {radioData11}  from './data';
-import {radioData12}  from './data';
 
 
 function Rajastan(  props,{ disableShuffle } ) {
@@ -69,17 +67,13 @@ console.log("imagePath:", imagePath);
 
   
 const [CurrentimageUrl, setCurrentimageUrl] = useState(null); 
-const [Currentfrequency, setCurrentfrequency] = useState(null); 
 const [CurrentstationName, setCurrentstationName] = useState(null); 
 const [CurrentstationLink, setCurrentstationLink] = useState(null);    
-const [Currentinformation, setCurrentinformation] = useState(null);
  const  playAudio = (imageUrl,frequency,stationName,stationLink,information) => {
     
     setCurrentimageUrl(imageUrl);
-    setCurrentfrequency(frequency); 
     setCurrentstationName(stationName);
     setCurrentstationLink(stationLink);
-    setCurrentinformation(information);
 
 
   };

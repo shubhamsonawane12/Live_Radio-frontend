@@ -8,13 +8,11 @@ import 'react-h5-audio-player/lib/styles.css';
 import "../Css/Radioplayer.css";
 
 
-import ReactAudioPlayer from 'react-audio-player';
 
 import {radioData16}  from './data';
 import {radioData17}  from './data';
 import {radioData10}  from './data';
 import {radioData11}  from './data';
-import {radioData12}  from './data';
 
 
 function Gujrat( props,  { disableShuffle } ) {
@@ -66,17 +64,13 @@ console.log("imagePath:", imagePath);
   }
   
 const [CurrentimageUrl, setCurrentimageUrl] = useState(null); 
-const [Currentfrequency, setCurrentfrequency] = useState(null); 
 const [CurrentstationName, setCurrentstationName] = useState(null); 
 const [CurrentstationLink, setCurrentstationLink] = useState(null);    
-const [Currentinformation, setCurrentinformation] = useState(null);
  const  playAudio = (imageUrl,frequency,stationName,stationLink,information) => {
     
     setCurrentimageUrl(imageUrl);
-    setCurrentfrequency(frequency); 
     setCurrentstationName(stationName);
     setCurrentstationLink(stationLink);
-    setCurrentinformation(information);
 
 
   };

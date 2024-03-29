@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import "../Css/profile-container.css";
 import useravtar from "../Images/user.png";
 import axios from 'axios';
-import Slider from "react-slick";
 import { Carousel } from 'react-responsive-carousel';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -41,17 +40,13 @@ function Profile(props) {
 
 
   const [CurrentimagePath, setCurrentimagePath] = useState(null); 
-  const [Currentfrequency, setCurrentfrequency] = useState(null); 
   const [CurrentstationName, setCurrentstationName] = useState(null); 
   const [CurrentstationLink, setCurrentstationLink] = useState(null);    
-  const [Currentinformation, setCurrentinformation] = useState(null);
 
   const playAudio = (imagePath,frequency,stationName,stationLink,information) => {    
     setCurrentimagePath(imagePath);
-    setCurrentfrequency(frequency); 
     setCurrentstationName(stationName);
     setCurrentstationLink(stationLink);
-    setCurrentinformation(information);
   };
   
   return (
