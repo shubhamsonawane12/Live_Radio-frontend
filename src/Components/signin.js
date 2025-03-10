@@ -37,7 +37,7 @@ function Signin() {
         console.log("registration is successful", data);
 
         // Redirect to the desired page (e.g., user profile, radio channels)
-         window.location.href = 'https://live-radio-frontend.onrender.com/NewDelhi';
+         window.location.href = 'https://live-radio-frontend.onrender.com/NewDelhi'; 
 
          
       } else {
